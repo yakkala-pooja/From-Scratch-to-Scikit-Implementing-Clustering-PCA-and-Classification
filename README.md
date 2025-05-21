@@ -66,18 +66,13 @@ _Visual comparisons are included to verify clustering quality._
 
 ```
 .
-├── src/
-│   ├── kmeans_custom.py           # Custom KMeans implementation
-│   ├── pca_custom.py              # Custom PCA with threshold-based reduction
-│   ├── svm_pipeline.py            # SVM training pipeline for Pokémon dataset
-│   └── utils.py                   # Utility functions (standardization, plotting, etc.)
+├── pyfiles/
+│   ├── classifiers.py             # Classifier Implementation File
+│   ├── feature_reduction.py       # Feature Reduction Implementation File
 ├── notebooks/
-│   ├── kmeans_vs_sklearn.ipynb    # Visual comparison between custom & sklearn KMeans
-│   ├── pca_projection.ipynb       # PCA projection with Iris dataset
-│   └── pokemon_classifier.ipynb   # Pokémon SVM training, evaluation, and tuning
+│   ├── PCA_Kmeans.ipynb           # Notebook with the three implementations
 ├── data/
 │   ├── pokemon_dataset.csv        # Pokémon dataset with labeled legendary status
-├── requirements.txt
 └── README.md                      # You're here
 ```
 
