@@ -88,8 +88,8 @@ _Visual comparisons are included to verify clustering quality._
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/-.git
-cd -
+git clone https://github.com/yakkala-pooja/From-Scratch-to-Scikit-Implementing-Clustering-PCA-and-Classification.git
+cd From-Scratch-to-Scikit-Implementing-Clustering-PCA-and-Classification
 pip install -r requirements.txt
 ```
 
